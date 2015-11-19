@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration version="1.0.6.12">
+  <General>
+    <HarmonyPath path="../.."/>
+    <ForceOptimization flag="true"/>
+  </General>
+  <Manifest>
+    <Files>
+      <File>
+        <Name>drv_tmr.h</Name>
+        <Path>Header Files/framework/driver/tmr</Path>
+      </File>
+      <File>
+        <Name>sys_devcon.c</Name>
+        <Path>Source Files/framework/system/devcon/src</Path>
+      </File>
+      <File>
+        <Name>sys_dma.h</Name>
+        <Path>Header Files/framework/system/dma</Path>
+      </File>
+      <File>
+        <Name>sys_tmr.h</Name>
+        <Path>Header Files/framework/system/tmr</Path>
+      </File>
+      <File>
+        <Name>sys_tmr.c</Name>
+        <Path>Source Files/framework/system/tmr/src</Path>
+      </File>
+      <File>
+        <Name>gfx_primitive.h</Name>
+        <Path>Header Files/framework/gfx</Path>
+      </File>
+      <File>
+        <Name>gfx.c</Name>
+        <Path>Source Files/framework/gfx/src</Path>
+      </File>
+      <File>
+        <Name>gfx.h</Name>
+        <Path>Header Files/framework/gfx</Path>
+      </File>
+      <File>
+        <Name>sys_ports.h</Name>
+        <Path>Header Files/framework/system/ports</Path>
+      </File>
+      <File>
+        <Name>sys_touch.h</Name>
+        <Path>Header Files/framework/system/touch</Path>
+      </File>
+      <File>
+        <Name>drv_gfx_lcc_int_pe.c</Name>
+        <Path>Source Files/framework/driver/gfx/controller/lcc/src</Path>
+      </File>
+      <File>
+        <Name>driver.h</Name>
+        <Path>Header Files/framework/driver</Path>
+      </File>
+      <File>
+        <Name>sys_common.h</Name>
+        <Path>Header Files/framework/system/common</Path>
+      </File>
+      <File>
+        <Name>sys_int_pic32.c</Name>
+        <Path>Source Files/framework/system/int/src</Path>
+      </File>
+      <File>
+        <Name>sys_touch.c</Name>
+        <Path>Source Files/framework/system/touch/src</Path>
+      </File>
+      <File>
+        <Name>sys_devcon_cache_pic32mz.S</Name>
+        <Path>Source Files/framework/system/devcon/src</Path>
+      </File>
+      <File>
+        <Name>gfx_primitive.c</Name>
+        <Path>Source Files/framework/gfx/src</Path>
+      </File>
+      <File>
+        <Name>drv_tmr.c</Name>
+        <Path>Source Files/framework/driver/tmr/src/dynamic</Path>
+      </File>
+      <File>
+        <Name>sys_devcon_cache.h</Name>
+        <Path>Header Files/framework/system/devcon</Path>
+      </File>
+      <File>
+        <Name>sys_ports.c</Name>
+        <Path>Source Files/framework/system/ports/src</Path>
+      </File>
+      <File>
+        <Name>sys_devcon.h</Name>
+        <Path>Header Files/framework/system/devcon</Path>
+      </File>
+      <File>
+        <Name>system.h</Name>
+        <Path>Header Files/framework/system</Path>
+      </File>
+      <File>
+        <Name>drv_adc10bit.h</Name>
+        <Path>Header Files/framework/driver/touch/adc10bit</Path>
+      </File>
+      <File>
+        <Name>sys_module.h</Name>
+        <Path>Header Files/framework/system/common</Path>
+      </File>
+      <File>
+        <Name>sys_devcon_pic32mz.c</Name>
+        <Path>Source Files/framework/system/devcon/src</Path>
+      </File>
+      <File>
+        <Name>drv_adc10bit.c</Name>
+        <Path>Source Files/framework/driver/touch/adc10bit/src</Path>
+      </File>
+      <File>
+        <Name>sys_dma.c</Name>
+        <Path>Source Files/framework/system/dma</Path>
+      </File>
+      <File>
+        <Name>drv_gfx_lcc.h</Name>
+        <Path>Header Files/framework/driver/gfx/controller/lcc</Path>
+      </File>
+      <File>
+        <Name>sys_int.h</Name>
+        <Path>Header Files/framework/system/int</Path>
+      </File>
+    </Files>
+    <Templates>
+      <Template>
+        <Name>main.c</Name>
+        <Path>Source Files/app</Path>
+      </Template>
+      <Template>
+        <Name>sys_clk_static.c</Name>
+        <Path>Source Files/app/system_config/boostv1/framework/system/clk/src</Path>
+        <Checksum>378F2F0E5BA7491B9E4CBE02F81A155F</Checksum>
+      </Template>
+      <Template>
+        <Name>drv_pmp_static.h</Name>
+        <Path>Header Files/app/system_config/boostv1/framework/driver/pmp</Path>
+        <Checksum>CCAA55DF9D1B8A94BDBC31E410D58EB3</Checksum>
+      </Template>
+      <Template>
+        <Name>drv_i2c_static.h</Name>
+        <Path>Header Files/app/system_config/boostv1/framework/driver/i2c</Path>
+        <Checksum>BDDCED2F6306E40124682DAB41CC554F</Checksum>
+      </Template>
+      <Template>
+        <Name>system_init.c</Name>
+        <Path>Source Files/app/system_config/boostv1</Path>
+        <Checksum>EEDC530FFFB3966B84AD2793329FBD60</Checksum>
+      </Template>
+      <Template>
+        <Name>sys_clk_static.h</Name>
+        <Path>Header Files/app/system_config/boostv1/framework/system/clk</Path>
+        <Checksum>999179DADE9ECD59953526F5E9F83ACC</Checksum>
+      </Template>
+      <Template>
+        <Name>app.c</Name>
+        <Path>Source Files/app</Path>
+      </Template>
+      <Template>
+        <Name>system_tasks.c</Name>
+        <Path>Source Files/app/system_config/boostv1</Path>
+        <Checksum>1AE86CFFF4C1DF001E45B99C57F3F7BD</Checksum>
+      </Template>
+      <Template>
+        <Name>system_exceptions.c</Name>
+        <Path>Source Files/app/system_config/boostv1</Path>
+        <Checksum>C111969CA43D6CEA1E9E33A6164E7AE0</Checksum>
+      </Template>
+      <Template>
+        <Name>system_definitions.h</Name>
+        <Path>Header Files/app/system_config/boostv1</Path>
+        <Checksum>F13C1610DDC6BBF0925350C982CD0B2E</Checksum>
+      </Template>
+      <Template>
+        <Name>drv_pmp_static.c</Name>
+        <Path>Source Files/app/system_config/boostv1/framework/driver/pmp/src</Path>
+        <Checksum>F862CC786EA12B8195B5845CCE19B1A3</Checksum>
+      </Template>
+      <Template>
+        <Name>app.h</Name>
+        <Path>Header Files/app</Path>
+      </Template>
+      <Template>
+        <Name>system_interrupt.c</Name>
+        <Path>Source Files/app/system_config/boostv1</Path>
+        <Checksum>C91ACCEE4ECF2D0B3D4C722D014A50EA</Checksum>
+      </Template>
+      <Template>
+        <Name>sys_ports_static.c</Name>
+        <Path>Source Files/app/system_config/boostv1/framework/system/ports/src</Path>
+        <Checksum>05AE86E26637E2C34B43F47BA8F3B239</Checksum>
+      </Template>
+      <Template>
+        <Name>system_config.h</Name>
+        <Path>Header Files/app/system_config/boostv1</Path>
+        <Checksum>51ECCDDBE0A434CB5CDD6F042DC9FC0C</Checksum>
+      </Template>
+      <Template>
+        <Name>drv_i2c_static.c</Name>
+        <Path>Source Files/app/system_config/boostv1/framework/driver/i2c/src</Path>
+        <Checksum>74E9EFEAA662DE91D461405ED5B275AF</Checksum>
+      </Template>
+    </Templates>
+    <Libraries>
+      <Library value="../../../../bin/framework/peripheral/PIC32MZ2048ECM100_peripherals.a"/>
+    </Libraries>
+  </Manifest>
+</configuration>
