@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<project>                                  
+  <executable name="dist/boostv1/production/Boostv1.X.production.elf">                 
+    <memory name="program">                 
+      <units>bytes</units>                 
+      <length>2098304</length>                 
+      <used>20324</used>                     
+      <free>2077980</free>                     
+    </memory>                              
+    <memory name="data">              
+      <units>bytes</units>                 
+      <length>524288</length>                 
+      <used>264204</used>                     
+      <free>260084</free>                     
+    </memory>                              
+  </executable>                            
+</project>                                 

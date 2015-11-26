@@ -80,7 +80,7 @@ void SYS_Tasks ( void )
     SYS_TOUCH_Tasks(sysObj.sysTouchObject0);
 
     /* Maintain Device Drivers */
-        DRV_TMR_Tasks(sysObj.drvTmr0);
+    DRV_TMR_Tasks(sysObj.drvTmr0);
     DRV_TOUCH_ADC10BIT_Tasks(sysObj.drvAdc10bit);
 
     /* Maintain Middleware & Other Libraries */
